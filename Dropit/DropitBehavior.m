@@ -26,7 +26,7 @@
     
     return _gravity;
 }
--(UIDynamicItemBehavior *) animationOptions{
+-(UIDynamicItemBehavior *) animationgOptions{
     
     if(!_animationOptions){
         
