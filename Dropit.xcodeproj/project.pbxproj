@@ -15,6 +15,7 @@
 		EADC60CB1C88B3AA001EF56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADC60C91C88B3AA001EF56F /* LaunchScreen.storyboard */; };
 		EADC60D61C88B3AA001EF56F /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC60D51C88B3AA001EF56F /* DropitTests.m */; };
 		EADC60E11C88B3AA001EF56F /* DropitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC60E01C88B3AA001EF56F /* DropitUITests.m */; };
+		EADC60F01C88B686001EF56F /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC60EF1C88B686001EF56F /* DropitBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EADC60DC1C88B3AA001EF56F /* DropitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADC60E01C88B3AA001EF56F /* DropitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitUITests.m; sourceTree = "<group>"; };
 		EADC60E21C88B3AA001EF56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADC60EE1C88B686001EF56F /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		EADC60EF1C88B686001EF56F /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				EADC60BE1C88B3AA001EF56F /* AppDelegate.h */,
 				EADC60BF1C88B3AA001EF56F /* AppDelegate.m */,
+				EADC60EF1C88B686001EF56F /* DropitBehavior.m */,
+				EADC60EE1C88B686001EF56F /* DropitBehavior.h */,
 				EADC60C11C88B3AA001EF56F /* ViewController.h */,
 				EADC60C21C88B3AA001EF56F /* ViewController.m */,
 				EADC60C41C88B3AA001EF56F /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EADC60C31C88B3AA001EF56F /* ViewController.m in Sources */,
+				EADC60F01C88B686001EF56F /* DropitBehavior.m in Sources */,
 				EADC60C01C88B3AA001EF56F /* AppDelegate.m in Sources */,
 				EADC60BD1C88B3AA001EF56F /* main.m in Sources */,
 			);
